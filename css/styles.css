@@ -2,22 +2,30 @@ header {
 font-size: medium;
 }
 
+main {
+    display:grid;
+    grid-template-rows: repeat (3, auto);
+}
+
+/* center main grid and shrink image*/
+
 footer {
 font-size:medium;
 display: grid;
-grid-template-columns: auto auto;
-
+grid-template-columns: repeat(10,auto);
 }
 
 .footer-left {
-    background-color:grey;
+    background-color:rgb(226, 216, 216);
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, auto);
     grid-gap:10px;
 }
 
 .footer-right {
+    background-color:rgb(175, 170, 170);
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-column-start: 7;
+    grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
 }
