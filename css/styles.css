@@ -1,0 +1,23 @@
+header {
+font-size: medium;
+}
+
+footer {
+font-size:medium;
+display: grid;
+grid-template-columns: auto auto;
+
+}
+
+.footer-left {
+    background-color:grey;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:10px;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
