@@ -1,17 +1,33 @@
-header {
-display:inline-block;
-float: right;
-font-size: medium;
-padding:10px;
+/* CSS SYles */
 
-
+a,#search-field,.buttons {
+    padding:5px;
 }
 
-body {
+header {
+width: 100vw;
+}
+
+#top-bar {
+text-align:right;
+padding:5px;
+margin:20px;
+}
+
+.nav {
+font-size: medium;
+}
+
+main {
     width: 100%;
     margin-top: 100px;
+    text-align:center;
+    margin: 0;
+    position: absolute;
+     top: 50%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
 }
-
 img {
     width:272px;
     height:92px;
@@ -19,17 +35,34 @@ img {
 
 footer {
 width:100%;
+padding:10px;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: medium;
+position:absolute;
+bottom:0;
+}
 
+.top-footer {
+    background-color:orange;
+    margin-bottom:5px;
+    margin-left:20px;
+    padding:5px;
+    display:inline-block;
 }
 
 .footer-left, .footer-right {
-    display: inline-block;
-    background-color:rgb(226, 216, 216);
-    font-size: medium;
-    margin:0px;
-    
+    padding: 5px;
 }
 
-.footer.right {
-    float: inline-end;
+.footer-left{
+    background-color: palegreen;
+    display: inline-block;
+    margin-left:20px;
+}
+.footer-right {
+    float:right;
+    background-color: pink;
+    margin-right:20px;
+    
 }
