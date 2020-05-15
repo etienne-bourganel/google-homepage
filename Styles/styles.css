@@ -1,17 +1,36 @@
+/* General styles */
 
-#container-header {
+html, body { 
+    margin: 0; padding: 0; }
+
+.flex-container {
+    background-color: rgb(177, 157, 157);
+    display:flex;
+}
+
+/* Top menu */
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 2.5rem;              
+  }
+
+  .container-header {
     justify-content: flex-end;
     margin-left: 10px;
     margin-right:10px;
 }
+/* Main */
 
 #container-main {
-    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width:auto;
 }
 
 #logo {
@@ -19,34 +38,21 @@
     height:auto;
 }
 
-#buttons {
-    justify-content: center;
+.buttons {
+    justify-content: space-evenly;
 }
 
-
-.flex-container {
-    background-color: pink;
-    display:flex;
-}
-
-#container-footer-2 {
-    justify-content: space-between;
-}
+/* Bottom menu */
 
 footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 2.5rem;            
-    margin-left: 10px;
-    margin-right: 10px;;
+    height: 2.5rem;        
   }
 
-  header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    height: 2.5rem;            
-    margin-left: 10px;
-    margin-right: 10px;;
-  }
+  .footer-1, .footer-2 {
+    justify-content: space-between;
+    margin-left:10px;
+    margin-right:10px;
+}
