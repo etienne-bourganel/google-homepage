@@ -1,58 +1,105 @@
 /* General styles */
 
-html, body { 
-    margin: 0; padding: 0; }
+    html, body { 
+        margin: 0; 
+        padding: 0;
+        font-family: arial,sans-serif;
+    }
 
-.flex-container {
-    background-color: rgb(177, 157, 157);
-    display:flex;
-}
+    .flex-container {
+        background-color: rgb(177, 157, 157);
+        display:flex;
+    }
+
+    a {
+        text-decoration: none;
+    }
 
 /* Top menu */
 
-header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    height: 2.5rem;              
-  }
+    header {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 2.5rem;              
+    }
 
-  .container-header {
-    justify-content: flex-end;
-    margin-left: 10px;
-    margin-right:10px;
-}
+    .container-header {
+        justify-content: flex-end;
+        margin-left: 10px;
+        margin-right:10px;
+        background-color: pink;
+    }
+
+    ul {
+        display:flex;
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+    }
+
+    /*How to align vertically text and icons? */
+
+    li, .icon {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .icon {
+        height:30px;
+        width:30px;
+        padding:5px;
+    }
+
 /* Main */
 
-#container-main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width:auto;
-}
+    #container-main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width:auto;
+    }
 
-#logo {
-    width:272px;
-    height:auto;
-}
+    #logo {
+        width:272px;
+        height:auto;
+    }
 
-.buttons {
-    justify-content: space-evenly;
-}
+    .buttons {
+        justify-content: space-evenly;
+    }
 
 /* Bottom menu */
 
-footer {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    height: 2.5rem;        
-  }
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 2.5rem;        
+    }
 
-  .footer-1, .footer-2 {
-    justify-content: space-between;
-    margin-left:10px;
-    margin-right:10px;
-}
+    .footer-1 {
+        width:20%;
+        justify-content: flex-start;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    
+    
+    .footer-2 {
+        justify-content: space-between;
+        margin-left:10px;
+        margin-right:10px;
+    }
+        /* Format for footer elements */ 
+
+        a.footer {
+            margin-left: 5px;
+        }
+
+        li.footer {
+            margin-left:5px;
+            margin-right: 5px;
+        }
