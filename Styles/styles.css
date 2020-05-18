@@ -75,22 +75,41 @@ header a {
     height:auto;
     padding: 10px;
 }
+/* 
+Need to optimize grouping (#search-block vs input 
+Change icons for search block
+*/
 
-#search {
-    width: 400px;
+#search-block {
+    width: 500px;
     height:50px;
     margin:10px;
     border-radius: 30px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(214, 211, 211);
+    display: flex;
+    align-items: center;
+}
+
+#magni {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#micro {
+    display: flex;
+    text-align: right;
 }
 
 input {
-    font-size: 20px;
+    font-size: 25px;
+    border: none;
+    width: 75%;
+    background-color: royalblue; 
 }
 
-#search:hover {
+#search-block:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
 }
