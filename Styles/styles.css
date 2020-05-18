@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* Top menu */
 
 header {
@@ -80,7 +84,19 @@ header a {
     border-width: 1px;
     border-style: solid;
     border-color: rgb(214, 211, 211);
-    /*TO DO: remove effect while clicking, change text and hover*/
+}
+
+input {
+    font-size: 20px;
+}
+
+#search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search:focus {
+    outline:none;
 }
 
 .buttons {
@@ -88,12 +104,28 @@ header a {
     margin-top:10px;
    
 }
+
 button {
     width: auto;
     padding:10px;
     margin:5px;
-    /*TO DO: change text, background color and hover effect*/
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-radius: 5px;
+}
 
+button:hover {
+    
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+button:focus {
+    outline:none;
 }
 
 /* Bottom menu */
@@ -116,7 +148,9 @@ footer {
 }
 
 #country {
-    padding:10px;
+    padding:5px;
+    padding-left:10px;
+    color: rgba(0,0,0,.54);
 }
 footer a {
     color: rgba(0,0,0,.54);
