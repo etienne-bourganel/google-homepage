@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html>
+<head>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<header>
+    <div id="top-bar">
+        <a class="nav" href="https://mail.google.com">Gmail</a>
+        <a class="nav" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
+    </div>
+</header>
+
+
+<body>
+    <main>
+
+    <div id="google-logo" > <img src="images/googlelogo.png" alt="Google logo"></div>
+    <div id="search-field"><input type="text" size="60"></div>
+    <div class="buttons" ><button id="search-button">Google Search</button> <button id="lucky-button">I'm Feeling Lucky</button></div>
+    <div ID="language"> Google offered in:<a href="#">svenska</a></div>
+   
+    </main>
+</body>
+
+
+
+  <footer>
+    <div class="top-footer"><a href="#">Sweden</a></div>
+    <div class="sub-footer">
+        <div class="footer-left">
+        <a href="https://www.google.com/intl/en_se/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+        <a href="https://about.google/?utm_source=google-SE&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+        <a href="https://about.google/?utm_source=google-SE&utm_medium=referral&utm_campaign=hp-footer&fg=1">How Search Works</a>
+        </div>
+
+        <div class="footer-right">
+        <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
+        <a href="https://policies.google.com/terms?fg=1">Terms</a>
+        <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        </div>
+    </div>
+    
+  </footer>
+
+=======
+<html lang="en">
+    <head>
+        <title>Google Homepage</title>
+        <link rel = "stylesheet"
+   type = "text/css"
+   href = "Styles/styles.css" />
+    </head>
+    <body>
+        <header>
+            <div class="flex-container container-header">
+                <ul>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#"><img class="icon" ID="apps" src="Images/apps-icon.png" alt="Apps"></a></li>
+                    <li><a href="#"><img class="icon" ID="avatar" src="Images/batman.webp" alt="Avatar"></a></li>
+                </ul>
+                
+            </div>
+        </header>
+        <main>
+            <div ID="container-main">
+                <img ID="logo" src="Images/google-logo.png" alt="Google logo">
+                <div ID="search-block">
+                    <img ID="magni" class="icon" src="Images/magnifier.png" alt="Magnifier">
+                    <input ID="search" type="text">
+                    <a href="#"><img ID="micro" class="icon" src="Images/micro.png" alt="Microphone"></a>
+                </div>
+                <div class="buttons">
+                    <button type="button"> Google Search</button>
+                    <button type="button"> I'm Feeling Lucky</button>
+                </div>
+                <p>Google offered in <a href="#">Svenska</a> </p>
+            </div>
+        </main>
+        <footer>
+            <div class="flex-container footer-line" ID="footer-1">
+                <div ID="country"> Sweden </div>
+                
+            </div>
+            <div class="flex-container footer-line" ID="footer-2">         
+                <ul>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How Search Works</a></li>
+                </ul>          
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+                
+            </div>
+        </footer>
+    </body>
+>>>>>>> flex-version
+</html>
